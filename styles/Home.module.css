@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(191,95,41,255);
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -11,9 +15,23 @@
 
 .main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
     flex-direction: row;
+    gap: 13%;
+}
+
+.cards {
+    width: 60%;
+}
+
+.foto {
+    background-color: rgb(222, 143, 82);
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .column {

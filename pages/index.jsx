@@ -13,7 +13,7 @@ export default function Home() {
                 <Card />
             </div>
                 <div className={styles.foto}>
-                 <img class = "" src="/adc522c5cb8cda2f05d80dc15be271a8.jpg" alt="friend bear" />
+                 <img class = "img-container" src="/adc522c5cb8cda2f05d80dc15be271a8.jpg" alt="friend bear" />
             </div>
             </main>
         </div>
