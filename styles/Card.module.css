@@ -1,5 +1,5 @@
-.card {
-    padding: 20px;
+.column{
+    padding: 100px;
     background-color: rgb(222, 143, 82);
     margin: 0 10px;
     text-align: center;
@@ -7,4 +7,6 @@
     margin-bottom: 10px; 
     flex-direction: column;
     gap: 10px;
+    width: 900px;
+    height: 105px;
 }
