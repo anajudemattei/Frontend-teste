@@ -1,12 +1,14 @@
-.header {
+.footer {
     background-color: rgb(222, 143, 82);
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 20px;
     border-radius: 15px;
-    margin-bottom: 20px;
 }
 
-.title {
+.text {
+    color: white;
+    font-size: 14px;
     margin: 0;
 }

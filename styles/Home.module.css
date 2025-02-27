@@ -2,7 +2,7 @@ body {
     background-color: rgb(191,95,41,255);
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -42,5 +42,11 @@ body {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 20px;
+}
+
+.image {
+    max-width: 100%;
+    width: calc(100% / 3);
+    border-radius: 15px;
 }
 
