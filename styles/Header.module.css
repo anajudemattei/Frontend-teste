@@ -2,11 +2,21 @@
     background-color: rgb(222, 143, 82);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     border-radius: 15px;
     margin-bottom: 20px;
 }
 
 .title {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 15px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
 }

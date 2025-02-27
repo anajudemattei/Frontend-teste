@@ -2,7 +2,7 @@
     background-color: rgb(222, 143, 82);
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     margin-top: 20px;
     border-radius: 15px;
 }
@@ -11,4 +11,14 @@
     color: white;
     font-size: 14px;
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
 }
